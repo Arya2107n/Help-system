@@ -1,0 +1,35 @@
+{
+  "users": [
+    { "id": 1, "name": "Rahul Patel", "email": "rahul@company.com", "role": "support", "password": "123456" },
+    { "id": 2, "name": "Neha Sharma", "email": "neha@company.com", "role": "support", "password": "123456" },
+    { "id": 3, "name": "Amit Shah", "email": "amit@company.com", "role": "employee", "password": "123456" },
+    { "id": 4, "name": "Priya Gupta", "email": "priya@company.com", "role": "employee", "password": "123456" }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "ticket_id": "TCK-1025",
+      "subject": "Unable to access company email",
+      "description": "Kya Bhai Employee Comapany ke  Email me Login Nai kar pa rhe.",
+      "priority": "High",
+      "status": "Open",
+      "assigned_to": 1,
+      "created_by": 3,
+      "created_at": "2026-09-12T09:30:00",
+      "updated_at": "2026-09-12T09:30:00"
+    },
+    {
+      "id": 2,
+      "ticket_id": "TCK-1024",
+      "subject": "Laptop not working",
+      "description": "Laptop Nahi Chalu ho rha Bro .",
+      "priority": "Medium",
+      "status": "In Progress",
+      "assigned_to": 2,
+      "created_by": 4,
+      "created_at": "2026-09-11T10:24:00",
+      "updated_at": "2026-09-11T11:00:00"
+    }
+  ],
+  "comments": []
+}
